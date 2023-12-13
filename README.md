@@ -1,3 +1,15 @@
+**learnt till now***
+1. Routing and nested routing
+2. Dynamic routes and nested dynamic routes.
+3. Catching all segments
+4. 
+
+
+
+
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
