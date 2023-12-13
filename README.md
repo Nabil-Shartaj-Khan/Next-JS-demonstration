@@ -1,4 +1,4 @@
-**learnt till now***
+**learnt till now**
 1. Routing and nested routing
 2. Dynamic routes and nested dynamic routes.
 3. Catching all segments
