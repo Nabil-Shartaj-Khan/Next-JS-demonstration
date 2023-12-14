@@ -1,17 +1,18 @@
+import Link from "next/link";
+
+<Link href="/">Go to the Homepage</Link>
 const Dynamic = () => {
     return (
         <> 
         <h2>Here examples of dynamic routing will be shown- </h2>
         <h5>Our products are</h5>
 
-        <ul>
-            <li>Product 1</li>
-            <li>Product 2</li>
-            <li>Product 3</li>
-            <li>Product 4</li>
-            <li>Product 5</li>
-            <li>Product 6</li>
-        </ul>
+            <h2><Link href="/products/1">Product 1</Link></h2>
+            <h2><Link href="/products/2">Product 2</Link></h2>
+            <h2><Link href="/products/3">Product 3</Link></h2>
+            <h2><Link href="/products/4">Product 4</Link></h2>
+            <h2><Link href="/products/5">Product 5</Link></h2>
+            <h2><Link href="/products/6">Product 6</Link></h2>
         </>
        
      );

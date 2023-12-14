@@ -1,0 +1,3 @@
+For nested layout or just layout for that particular page 
+
+add "layout.jsx" in that folder. 

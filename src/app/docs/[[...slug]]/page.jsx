@@ -11,7 +11,8 @@ const Docs = ({params}) => {
              </h1>
     }
     else if (params.slug?.length===1){
-        return <div>
+        return 
+        <div>
 
         <h1>
         You are viewing the Employee Name- {params.slug[0]}. Add /post/status if applicable.
