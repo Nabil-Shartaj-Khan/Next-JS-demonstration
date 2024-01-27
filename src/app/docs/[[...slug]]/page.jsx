@@ -10,19 +10,13 @@ const Docs = ({params}) => {
             You are viewing the Employee Name- {params.slug[0]}, who is working as {params.slug[1]}. Add /status if applicable.
              </h1>
     }
-    else if (params.slug?.length===1){
-        return 
-        <div>
-
-        <h1>
-        You are viewing the Employee Name- {params.slug[0]}. Add /post/status if applicable.
-        </h1>
-        
-        </div>
-
-
-        
-    }
+    else if (params.slug?.length === 1) {
+        return (
+          <div>
+            <h1>You are viewing the Employee Name- {params.slug[0]}. Add /post/status if applicable.</h1>
+          </div>
+        );
+      }
     return (
         <>
         <h1>You are now in Employee homepage</h1>
