@@ -7,6 +7,7 @@
 6. Link component navigation with active link.
 7. Navigating programatically.
 8. Parallel routing, unmatched route handling and conditional rendering
+9. Working with GET,POST,PATCH,DELETE,Query parameter, redirection. 
 
 
 
