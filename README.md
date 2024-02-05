@@ -5,8 +5,9 @@
 4. Custom 404 page.
 5. Route groups.
 6. Link component navigation with active link.
-7. Navigating programatically. 
-
+7. Navigating programatically.
+8. Parallel routing, unmatched route handling and conditional rendering
+9. Working with GET,POST,PATCH,DELETE,Query parameter, redirection. 
 
 
 
