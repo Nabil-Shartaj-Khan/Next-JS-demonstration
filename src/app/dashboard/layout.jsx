@@ -1,13 +1,14 @@
-const UserLayout = ({ children, action, notification, user }) => {
-  return (
+const UserLayout = ({ children, action, notification, user, login }) => {
+  const isLoggedin = true;
+  return isLoggedin ? (
     <div>
-      <div>
-        {children}
-        {action}
-        {notification}
-        {user}
-      </div>
+      {children}
+      {action}
+      {notification}
+      {user}
     </div>
+  ) : (
+    login
   );
 };
 
